@@ -1,0 +1,12 @@
+username : whoami
+ip_address command: hostname -I
+
+sudo apt install openssh-server
+sudo systemctl start ssh
+sudo systemctl enable ssh
+
+1.ssh-keygen -t rsa -b 2048
+2.ssh-copy-id username@ip_address
+3.ssh username@ip_address
+4.ls
+5.sh filename.sh 

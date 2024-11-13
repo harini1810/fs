@@ -1,0 +1,8 @@
+# create shell script using vi
+vi script.sh
+# make it executable
+chmod +x script.sh 
+scp script.sh username@ip:/remote/directory/path
+ssh username@ip
+cd /remote/directory/path
+sh script.sh
